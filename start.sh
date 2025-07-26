@@ -1,0 +1,1 @@
+npm run build && n8n start
