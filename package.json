@@ -2,8 +2,8 @@
   "name": "n8n-render-starter",
   "version": "1.0.0",
   "scripts": {
-    "build": "n8n build",
-    "start": "n8n start"
+    "build": "echo 'no build step needed'",
+    "start": "npx n8n"
   },
   "dependencies": {
     "n8n": "^1.44.0"
