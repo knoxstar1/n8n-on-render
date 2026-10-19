@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "build": "echo 'no build step needed'",
-    "start": "node api.js && npx n8n"
+    "start": "npx n8n"
   },
   "dependencies": {
     "n8n": "^1.44.0"
