@@ -1,11 +1,14 @@
 {
   "name": "n8n-render-starter",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "build": "echo 'no build step needed'",
-    "start": "npx n8n"
+    "start": "n8n start"
+  },
+  "engines": {
+    "node": ">=24"
   },
   "dependencies": {
-    "n8n": "^1.44.0"
+    "n8n": "2.45.4"
   }
 }
